@@ -26,9 +26,18 @@
     <Folder Include="Base_Data\" />
     <Folder Include="Classes\" />
     <Folder Include="Functions\" />
+    <Folder Include="RawData\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Base_Data\json_conversion_file.py" />
+    <Compile Include="Base_Data\__init__.py" />
+    <Compile Include="Classes\__init__.py" />
+    <Compile Include="Functions\__init__.py" />
     <Compile Include="Game_Trigger_Engine\Core_Run.py" />
+    <Compile Include="Game_Trigger_Engine\__init__.py" />
+    <Compile Include="output_paths.py" />
+    <Compile Include="RawData\__init__.py" />
+    <Compile Include="__init__.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
